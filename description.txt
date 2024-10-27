@@ -1,0 +1,24 @@
+Project is inspired of IT maturity exam in 2023. It contains first 4 sub-tasks answers
+for Task 7 solved using Apache Spark. Data were converted from txt to csv format.
+They represent imagined  database of board game shop.
+
+Database contet files:
+games - table containing fields: id_game, name, category
+gamers - table containing fields: id_player, first name, last name, age
+rates - table containing fields: id_game, id_player, condition, rate
+
+Task 1
+Print the title of game which has got the biggest number of rates.
+
+Task 2
+For all of the games with category "party" print average of its rates
+accurate to 2 decimal places.
+
+Task 3
+Print number of players who have not got any of games which they has rated.
+
+Task 4
+Print the most frequently rated game/games by the players for each of the 3 categories:
+junior: 10-19 years old
+senior: 20-49 years old
+veteran: 50-99 years old
